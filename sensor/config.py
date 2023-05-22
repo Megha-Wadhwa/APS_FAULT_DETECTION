@@ -12,6 +12,10 @@ class EnvironmentVariable:
     aws_access_secret_key:str = os.getenv("AWS_SECRET_ACCESS_KEY")
 
 
+TARGET_COLUMN_MAPPING= {
+    "pos":1,
+    "neg":0
+}
 
 env_var = EnvironmentVariable()
 mongo_client = pymongo.MongoClient(env_var.mongo_db_url)
