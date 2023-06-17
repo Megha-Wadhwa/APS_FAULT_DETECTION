@@ -20,6 +20,6 @@ git init  // to initialize git in the source code
 git clone <github_url>// to clone xisting github repo
 git add file_name /to add ur changes made in file to git stagging area
 git commit -m "message /create commits
-git push origin main // origin contains url to github repo ; main >> branch name
+git push origin main // origin contains url to github repo ; main >> branch name 
  
 git pull origin main // to pull changes from github repo
